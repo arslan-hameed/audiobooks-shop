@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Your destination for buying and downloading audiobooks. High-quality, seamless experience.">
+    <meta name="keywords" content="audiobooks, buy audiobooks, download audiobooks, online books, audio storytelling">
+    <title>Online Audio Books</title>
+    <link rel="stylesheet" href="main.css">
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+            <h1><a href="home.html">OnlineAudioBooks</a></h1>
+        </div>
+        <button class="menu-toggle" aria-label="Toggle navigation">&#9776;</button>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html" class="active">About Us</a></li>
+                <li><a href="catalogue.html">Catalogue</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="about-hero">
+        <h2>About Us</h2>
+        <p>We bring the best audiobooks to you, making storytelling accessible and enjoyable anywhere.</p>
+    </section>
+
+    <section class="about">
+        <div class="about-container">
+            <div class="about-text">
+                <h2>About Us</h2>
+                <p>
+                    Online Audio Books was founded to simplify access to high-quality audiobooks.
+                    From a small platform, it has grown into a trusted destination for audiobook lovers.
+                    We offer exclusive selections with a seamless purchasing experience.
+                    Our commitment to quality and accessibility ensures an enriching audio journey.
+                </p>
+            </div>
+            <div class="about-image">
+                <img src="images/about2.jpg" alt="About Us">
+            </div>
+        </div>
+    </section>
+
+    <section class="about-section">
+        <h2>Our Mission</h2>
+        <p>At Online Audio Books, our mission is to revolutionize the audiobook industry by embracing innovation and
+            prioritizing user experience. We are dedicated to:</p>
+        <ul>
+            <li><strong>Enhancing Technology</strong> – Continuously improving our website and mobile app for a smooth,
+                user-friendly browsing and purchasing experience.</li>
+            <li><strong>Expanding Our Catalogue</strong> – Curating a diverse collection of high-demand and exclusive
+                audiobooks to cater to a wider audience.</li>
+            <li><strong>Strengthening User Support</strong> – Providing valuable resources and assistance to guide
+                listeners through their audiobook journey.</li>
+            <li><strong>Engaging with the Community</strong> – Partnering with renowned authors and producers to promote
+                high-quality content and support literary communities.</li>
+            <li><strong>Global Expansion</strong> – Exploring new opportunities to bring our premium audiobook services
+                to an international audience.</li>
+        </ul>
+    </section>
+
+    <section class="team">
+        <div class="team-member">
+            <img src="images/boy.png" alt="Team Member 1">
+            <h3>John Doe</h3>
+            <p>Founder & CEO</p>
+        </div>
+        <div class="team-member">
+            <img src="images/boy.png" alt="Team Member 2">
+            <h3>Jane Smith</h3>
+            <p>Head of Operations</p>
+        </div>
+        <div class="team-member">
+            <img src="images/boy.png" alt="Team Member 3">
+            <h3>Mike Johnson</h3>
+            <p>Marketing Lead</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Online Audio Books. All rights reserved.</p>
+    </footer>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const menuToggle = document.querySelector(".menu-toggle");
+            const nav = document.querySelector("nav");
+
+            menuToggle.addEventListener("click", function () {
+                nav.classList.toggle("active");
+            });
+        });
+    </script>
+</body>
+
+</html>

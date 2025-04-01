@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Your destination for buying and downloading audiobooks. High-quality, seamless experience.">
+    <meta name="keywords" content="audiobooks, buy audiobooks, download audiobooks, online books, audio storytelling">
+    <title>Online Audio Books</title>
+    <link rel="stylesheet" href="main.css">
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <h1><a href="home.html">OnlineAudioBooks</a></h1>
+        </div>
+        <button class="menu-toggle" aria-label="Toggle navigation">&#9776;</button>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="catalogue.html">Catalogue</a></li>
+                <li><a href="contact.html" class="active">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="contact-hero">
+        <h2>Contact Us</h2>
+        <p>We'd love to hear from you! Reach out with any questions or feedback.</p>
+    </section>
+
+    <section class="contact-form">
+        <h2>Send us a Message</h2>
+        <form>
+            <div class="input-group">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" placeholder="Enter your name" required>
+            </div>
+            <div class="input-group">
+                <label for="email">Your Email</label>
+                <input type="email" id="email" placeholder="Enter your email" required>
+            </div>
+            <div class="input-group">
+                <label for="message">Your Message</label>
+                <textarea id="message" rows="5" placeholder="Type your message here..." required></textarea>
+            </div>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Online Audio Books. All rights reserved.</p>
+    </footer>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const menuToggle = document.querySelector(".menu-toggle");
+            const nav = document.querySelector("nav");
+
+            menuToggle.addEventListener("click", function () {
+                nav.classList.toggle("active");
+            });
+        });
+    </script>
+</body>
+
+</html>
