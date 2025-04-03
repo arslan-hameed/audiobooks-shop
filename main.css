@@ -345,7 +345,6 @@ footer {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 20px;
-  padding: 40px;
 }
 
 .book-item {
@@ -395,7 +394,6 @@ footer {
 @media (max-width: 767px) {
   .books-list {
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    padding: 20px;
   }
 
   .books-hero h2 {
@@ -1019,7 +1017,7 @@ nav ul li a:hover {
 
 /* Modal styles */
 .modal-wrapper .modal {
-  position: fixed;
+  position: fixed !important;
   top: 0;
   left: 0;
   width: 100%;
