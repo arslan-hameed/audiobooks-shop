@@ -1053,7 +1053,22 @@ nav ul li a:hover {
 }
 
 /* CSS for opening modal */
-.modal-wrapper #modal:target {
+.modal-wrapper #modal:target,
+.modal-wrapper #modal1:target,
+.modal-wrapper #modal2:target,
+.modal-wrapper #modal3:target,
+.modal-wrapper #modal4:target,
+.modal-wrapper #modal5:target,
+.modal-wrapper #modal6:target,
+.modal-wrapper #modal7:target,
+.modal-wrapper #modal8:target,
+.modal-wrapper #modal9:target,
+.modal-wrapper #modal10:target,
+.modal-wrapper #modal11:target,
+.modal-wrapper #modal12:target,
+.modal-wrapper #modal13:target,
+.modal-wrapper #modal14:target,
+.modal-wrapper #modal15:target  {
   display: flex;
 }
 
